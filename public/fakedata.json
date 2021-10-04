@@ -1,0 +1,95 @@
+{
+    "course": [
+        {
+            "id": "52977",
+            "course": "Advanced UI/UX Design",
+            "fees": "20,000",
+            "des": "This course introduces the student to the Advanced UI/UX Design Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/09/30.png"
+        },
+        {
+            "id": "52978",
+            "course": "Red Hat Linux",
+            "fees": "15,000",
+            "des": "This course introduces the student to the Red Hat Linux Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/05/red-hat-linux-.png"
+        },
+        {
+            "id": "52979",
+            "course": "Basic Computer Training",
+            "fees": "6,000",
+            "des": "This course introduces the student to the Basic Computer Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/1.png"
+        },
+        {
+            "id": "52980",
+            "course": "Freelancing & Outsourcing",
+            "fees": "15,000",
+            "des": "This course introduces the student to the Freelancing Outsourcing Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/freelancing.png"
+        },
+        {
+            "id": "52981",
+            "course": "Advanced Graphics Design",
+            "fees": "16,000",
+            "des": "This course introduces the student to the Graphic Design Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/2.png"
+        },
+        {
+            "id": "52982",
+            "course": "Advanced Web Design",
+            "fees": "20,000",
+            "des": "This course introduces the student to the Advanced Web Design Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/3.png"
+        },
+        {
+            "id": "52983",
+            "course": "Web Development",
+            "fees": "20,000",
+            "des": "This course introduces the student to the Web Development Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/4.png"
+        },
+        {
+            "id": "52984",
+            "course": "WordPress Development",
+            "fees": "16,000",
+            "des": "This course introduces the student to the WordPress Development Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/5-1.png"
+        },
+        {
+            "id": "52985",
+            "course": "Digital Marketing with SEO",
+            "fees": "20,000",
+            "des": "This course introduces the student to the Digital Marketing with SEO Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/digital-marketing.png"
+        },
+        {
+            "id": "52986",
+            "course": "Professional ASP.Net",
+            "fees": "16,000",
+            "des": "This course introduces the student to the ASP.Net Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/6.png"
+        },
+        {
+            "id": "52987",
+            "course": "C Programming",
+            "fees": "16,000",
+            "des": "TThis course introduces the student to the C Programming Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/7.png"
+        },
+        {
+            "id": "52988",
+            "course": "JAVA Programming",
+            "fees": "16,000",
+            "des": "This course introduces the student to the C Programming Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/9.png"
+        },
+        {
+            "id": "52989",
+            "course": "Windows Server 2016 (MCSA)",
+            "fees": "18,000",
+            "des": "This course introduces the student to the Windows Server 2016 Training. Basic Concepts Such as",
+            "img": "https://nebulas-it.com/wp-content/uploads/2017/03/Windows-Server-2016-MCSA.png"
+        }
+    ]
+}

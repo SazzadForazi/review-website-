@@ -1,0 +1,16 @@
+
+.form-container{
+    background-color: #474d5d;
+    color: white;
+    padding: 20px;
+   margin-bottom: 5px;
+}
+
+.inner-form{
+    background-color: white;
+    margin-top: 5px;
+    width: 50%;
+}
+.contact{
+    font-size: 30px;
+}
