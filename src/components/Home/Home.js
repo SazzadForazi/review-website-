@@ -37,7 +37,7 @@ const Home = () => {
 
 
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 carousel">
                     <Carousel>
                         <Carousel.Item interval={1000}>
                             <img
