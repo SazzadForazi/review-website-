@@ -1,13 +1,15 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import './Header.css'
-import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Stack } from 'react-bootstrap';
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
+
+        <Navbar className='navbar' expand="lg">
             <Container fluid>
-                <Navbar.Brand href="#"><span>
+                <Navbar.Brand href="#"><span className="neb">
                     NEBULAS IT</span><br />
                     <small>For professional Skill Development</small>
                 </Navbar.Brand>
@@ -15,14 +17,64 @@ const Header = () => {
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="me-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
+                        style={{
+                            // maxHeight: '100px',
+                            fontSize: '25px',
+
+                        }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">About Us</Nav.Link>
-                        <Nav.Link href="#action2">All Courses</Nav.Link>
-                        <Nav.Link href="#action2">About</Nav.Link>
-                        <Nav.Link href="#action2">Contact Us</Nav.Link>
+
+                        <Stack direction="horizontal" gap={5}>
+                            <NavLink
+                                to="/home"
+                                activeStyle={{
+                                    fontWeight: "bold",
+                                    color: "red",
+                                    textDecoration: 'none',
+                                    fontSize: '30px'
+
+                                }}
+                            >
+                                Home
+                            </NavLink>
+                            <NavLink
+                                to="/about"
+                                activeStyle={{
+                                    fontWeight: "bold",
+                                    color: "red",
+                                    textDecoration: 'none',
+                                    fontSize: '30px'
+                                }}
+                            >
+                                About Us
+                            </NavLink>
+                            <NavLink
+                                to="/allcourse"
+                                activeStyle={{
+                                    fontWeight: "bold",
+                                    color: "red",
+                                    textDecoration: 'none',
+                                    fontSize: '30px'
+                                }}
+                            >
+                                All Courses
+                            </NavLink>
+                            <NavLink
+                                to="/contact"
+                                activeStyle={{
+                                    fontWeight: "bold",
+                                    color: "red",
+                                    textDecoration: 'none',
+                                    fontSize: '30px'
+                                }}
+                            >
+                                Contact Us
+                            </NavLink>
+                        </Stack>
+
+
+
                         <NavDropdown title="  Services" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action3">IT TRAINING</NavDropdown.Item>
                             <NavDropdown.Item href="#action4">SOFTWARE DEVELOPMENT</NavDropdown.Item>
@@ -62,7 +114,7 @@ const Header = () => {
                     </Form>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
     );
 };
 

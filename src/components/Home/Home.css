@@ -1,0 +1,10 @@
+.carocel{
+    color: rgb(250, 3, 3);
+    font-weight: 900;
+    margin-top: 10px 0;  
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

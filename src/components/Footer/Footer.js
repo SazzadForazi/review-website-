@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css'
 
-
 const Footer = () => {
     return (
         <div>
@@ -19,7 +18,8 @@ const Footer = () => {
 
                             <div className="circle-footer ">
 
-                                <i className="fa fa-facebook-official"></i>
+                                <i class='fab fa-facebook-square'></i>
+
 
                             </div>
                             <div className="circle-footer ">

@@ -1,0 +1,12 @@
+.container{
+    padding: 10px;
+    
+}
+.cart{
+    margin: 10px;
+    border: 1px solid black;
+    height: 400px;
+}
+#navbarScrollingDropdown{
+    margin-left: 50px;
+}
