@@ -38,7 +38,7 @@ function App() {
             <Contactus></Contactus>
           </Route>
 
-          <Route path="*">
+          <Route exact path="*">
             <NotFound></NotFound>
           </Route>
 
