@@ -6,4 +6,16 @@
     font-weight: 900;
     font-size: 30px;
     color: rgb(70, 70, 238);
+    /* margin-right: 20px; */
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.section{
+    font-size: 10px;
+    font-weight: 100;
 }

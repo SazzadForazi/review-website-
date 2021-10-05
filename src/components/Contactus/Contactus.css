@@ -8,9 +8,13 @@
 
 .inner-form{
     background-color: white;
-    margin-top: 5px;
-    width: 50%;
+    
+    /* width: 50%; */
 }
 .contact{
     font-size: 30px;
+}
+.form-control{
+    width: 1020px;
+    margin: 5px 0;
 }

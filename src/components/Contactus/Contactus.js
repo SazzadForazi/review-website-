@@ -20,14 +20,14 @@ const Contactus = () => {
                         <div className="form-row pb-4">
                             <form className="col">
                                 <label>
-                                    <input className="form-control inner-form me-5" placeholder="Your Name" type="text" />
+                                    <input className="form-control me-5" placeholder="Your Name" type="text" />
                                 </label>
 
                             </form>
                             <div className="col">
 
                                 <label>
-                                    <input className="form-control inner-form me-5" placeholder="Your Email" type="text" />
+                                    <input className="form-control me-5" placeholder="Your Email" type="text" />
                                 </label>
 
 
@@ -41,7 +41,7 @@ const Contactus = () => {
                         </div>
                         <div className="row py-5">
                             <div className="col">
-                                <button variant="btn bg-redtype  outline-success py-5">Send Messege</button>
+                                <button className='btn btn-primary' variant="btn bg-redtype  outline-success py-5">Send Messege</button>
                             </div>
                         </div>
                     </form>

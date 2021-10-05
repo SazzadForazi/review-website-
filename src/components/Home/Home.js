@@ -52,7 +52,7 @@ const Home = () => {
                         <Carousel.Item interval={500}>
                             <img
                                 className="d-block w-100"
-                                src="https://lh3.googleusercontent.com/proxy/VXSbRvFyTNTSZcBfnEdrREHBDv7IxZu5L0oVo3OHpc4qSXqRzVxkH_Jkwcuw_bxSHQ-persY36tsQR93ddijBe5Dm3j3bUsJFpIEVD5KNyUkAYHztR2w95Zwlg"
+                                src="https://webapp99.com/wp-content/uploads/2020/04/web-development-guideline-for-2020-t0-2030.jpeg"
                                 alt="Second slide"
                             />
                             <Carousel.Caption>
@@ -63,6 +63,16 @@ const Home = () => {
                             <img
                                 className="d-block w-100"
                                 src="https://binyte.com/wp-content/uploads/2019/10/UIUX-designing-1.jpg"
+                                alt="Third slide"
+                            />
+                            <Carousel.Caption>
+
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="https://www.orangemantra.com/blog/wp-content/uploads/2019/04/updated.jpg"
                                 alt="Third slide"
                             />
                             <Carousel.Caption>

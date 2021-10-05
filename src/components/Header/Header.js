@@ -2,7 +2,7 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import './Header.css'
 import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Stack } from 'react-bootstrap';
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -11,15 +11,16 @@ const Header = () => {
             <Container fluid>
                 <Navbar.Brand href="#"><span className="neb">
                     NEBULAS IT</span><br />
-                    <small>For professional Skill Development</small>
+                    <small className='section'>For professional Skill Development</small>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="me-auto my-2 my-lg-0"
                         style={{
-                            // maxHeight: '100px',
+                            maxHeight: '100px',
                             fontSize: '25px',
+                            textDecoration: 'none'
 
                         }}
                         navbarScroll
@@ -103,14 +104,14 @@ const Header = () => {
                         </NavDropdown>
 
                     </Nav>
-                    <Form className="d-flex">
+                    <Form className="d-flex ">
                         <FormControl
                             type="search"
                             placeholder="Search"
-                            className="me-2"
+                            className="me-2 w-50"
                             aria-label="Search"
                         />
-                        <Button variant="outline-success">Search</Button>
+                        <Button className='btn btn-primary' variant="outline-success">Search</Button>
                     </Form>
                 </Navbar.Collapse>
             </Container>

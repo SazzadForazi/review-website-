@@ -1,5 +1,6 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+
 
 const Footer = () => {
     return (
@@ -25,19 +26,19 @@ const Footer = () => {
                             <div className="circle-footer ">
 
 
-                                <i className="fa fa-github"></i>
+                                <i class="fab fa-github"></i>
 
                             </div>
                             <div className="circle-footer ">
 
 
-                                <i className="fa fa-youtube-play"></i>
+                                <i class="fab fa-linkedin"></i>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col text-white text-center">
-                            <p>&copy; All Right Resrved to Md Sazzad Hossain</p>
+                            <p>&copy; All Right Resrved to Md Sazzad Forazi</p>
                         </div>
                     </div>
                 </div>
